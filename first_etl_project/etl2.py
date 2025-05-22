@@ -22,3 +22,8 @@ df["purchasedate"] = pd.to_datetime(df["purchasedate"], errors="coerce")
 
 # Save the final processed data into a local file
 df.to_csv("final_data.csv", index=False)
+
+
+# End of etl pipeline 
+
+
